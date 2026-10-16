@@ -99,8 +99,8 @@ Este projeto utiliza o **[uv](https://github.com/astral-sh/uv)** para um gerenci
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/LucasBorbaDS/analise-churn-clientes.git
-cd analise-churn-clientes
+git clone https://github.com/LucasBorbaDS/analise-de-churn.git
+cd analise-de-churn
 ```
 
 ### 2. Instalar as dependências com o uv
@@ -114,7 +114,7 @@ Abra o notebook no seu editor / IDE selecionando o kernel do `.venv`, ou inicie 
 ```bash
 uv run jupyter lab
 ```
-Abra o arquivo [`MiniProjeto5.ipynb`](MiniProjeto5.ipynb) e execute as células.
+Abra o arquivo [`analise-de-churn.ipynb`](analise-de-churn.ipynb) e execute as células.
 
 ---
 
@@ -123,8 +123,8 @@ Abra o arquivo [`MiniProjeto5.ipynb`](MiniProjeto5.ipynb) e execute as células.
 ```text
 ├── .gitignore               # Configurações de arquivos ignorados no Git
 ├── .python-version          # Versão do Python utilizada pelo uv
-├── Analise-de-churn.ipynb       # Notebook principal com EDA, Modelagem e Relatório
-├── Analise-de-churn.html        # Exportação estática do notebook
+├── analise-de-churn.ipynb       # Notebook principal com EDA, Modelagem e Relatório
+├── analise-de-churn.html        # Exportação estática do notebook
 ├── meu_grafico_receita.png  # Gráfico da distribuição da receita mensal
 ├── pyproject.toml           # Configurações do projeto e dependências
 ├── uv.lock                  # Lockfile com hashes das dependências sincronizadas
